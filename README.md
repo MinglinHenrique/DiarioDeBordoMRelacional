@@ -35,12 +35,12 @@ alerta: embora não haja, efetivamente, nenhum problema das chaves estrangeiras 
 
 ## Como o modelo lógico se diferencia do conceitual?
 
-# Modelo Conceitual
+### Modelo Conceitual
 Modelo que representa fielmente o negocio em questão, demonstrando características fieis ao ambiente observado ou imaginado independente de qualquer limitação imposta por tecnologia, técnica de implementação ou dispositivo físico.
 Deve ser utilizada na fase de analise, nunca na fase de projeto, em nível de conversação, representação do negocio, validação de conceitos etc.
 **Um grande diferencial do modelo conceitual é sua estabilidade, pois permanece sem mudanças independente da escolha futura de implementação, em um SGBD relacional ou um hierárquico**
 
-# Modelo Lógico
+### Modelo Lógico
 Ao contrário dos modelos conceituais, os modelos lógicos são os modelos em que os objetos, suas características e relacionamentos têm sua representação de acordo com as regras de implementação e limitantes impostos por alguma tecnologia
 **esse modelo será criado através do modelo conceitual já construído, teoria essa que alguns autores têm uma visão diferenciada, definindo que o método para obtenção do modelo lógico é o próprio processo criativo, sem haver a necessidade de um modelo conceitual.**
 
